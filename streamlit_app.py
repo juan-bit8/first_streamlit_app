@@ -58,5 +58,3 @@ if streamlit.button('Add a fruit to the list'):
   back_from_function = inser_row(add_my_fruit)
   my_cnx.close()
   streamlit.text(back_from_function)
-streamlit.write(')
-my_cur.execute("
