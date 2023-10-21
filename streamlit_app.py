@@ -35,8 +35,6 @@ try:
 except URLError as e:
   streamlit.error()
 
-#streamlit.write('The user entered ', fruit_choice)
-
 streamlit.header("The fruit load list contains:")
 def get_fruit_load_list():
   with my_cur.cursor() as my_cur:
